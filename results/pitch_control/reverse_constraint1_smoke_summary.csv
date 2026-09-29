@@ -1,0 +1,2 @@
+events_processed,attack_avg_error_m,attack_std_error_m,defense_avg_error_m,defense_std_error_m,combined_avg_error_m,combined_std_error_m
+10,25.16694939904088,17.022565900308432,19.42941334970505,12.968230640195262,22.298181374372962,15.401337859523062

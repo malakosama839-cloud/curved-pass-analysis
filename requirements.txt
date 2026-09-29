@@ -1,0 +1,26 @@
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+matplotlib>=3.7
+tqdm>=4.60
+plotly>=5.18
+scikit-learn>=1.3      # only pitch_control/LaurieOnTracking/Metrica_PitchControl_Linear.py
+scikit-image>=0.21     # only pitch_control/batch_ppcf_correlation_compare.py
+accessible-space       # DAS curved-pass xC study (see note below)
+
+# NOTE on accessible-space
+# ------------------------
+# The DAS notebooks (notebooks/das_curved_pass_study_3D.ipynb and
+# notebooks/das_curved_pass_study_2D.ipynb) import the library
+# `accessible_space` (Bischofberger's "Accessible Space" pitch-control / xC
+# model) INCLUDING some private constants of that library, so the exact
+# version matters. If the PyPI wheel is unavailable or incompatible,
+# install straight from the project repository:
+#
+#     pip install git+https://github.com/jonas-bischofberger/accessible-space.git
+#
+# and record the commit you used in docs/reproducibility.md.
+
+# Notebook execution (optional but recommended)
+jupyterlab
+ipykernel

@@ -1,0 +1,5 @@
+method,events_timed,avg_seconds_per_event,ratio_vs_baseline
+Baseline (Original),15,0.16533482000231742,1.0
+Distance Based Probability with exponential,15,0.0013109533271441858,0.007929081890468146
+Gaussian Distance Based Probability,15,0.0011744466765473286,0.007103444250466217
+Matrix Distance Based Probability,15,0.006573366676457226,0.03975790868714219
